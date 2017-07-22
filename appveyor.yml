@@ -6,7 +6,8 @@ build_script:
     dotnet restore
 
     dotnet build
-
+test_script:
+- cmd: >-
     cd Configuraion.Test
 
     dotnet test

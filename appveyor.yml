@@ -2,7 +2,11 @@ version: 1.0.{build}
 build_script:
 - cmd: >-
     cd src
+
     dotnet restore
+
     dotnet build
+
     cd Configuraion.Test
+
     dotnet test

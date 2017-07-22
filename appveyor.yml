@@ -1,0 +1,9 @@
+version: 0.1.0.{build}
+before_build:
+- cmd: cd src
+- cmd: nuget restore
+
+build:
+  project: src\Configuration.sln
+  parallel: true
+  verbosity: minimal

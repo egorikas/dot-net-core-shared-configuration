@@ -7,6 +7,7 @@
 New configuration system for .NET Core is really awesome.
 But in official stylyguides it always uses in the main ASP.NET Core app.
 But what if we have other apps in the solution? Or we need to share configuration settings between projects?
+Additional info in my [blog-post](http://egorikas.com/asp.net-core-shared-configuration/).
 
 ### Entity Framework Core
 
